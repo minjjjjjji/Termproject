@@ -7,15 +7,31 @@ This repository is made for termproject "Open source SW".
 This project provides a functionality to **detect eyes and mouth on a snowman's face template and seamlessly blend these facial features with another image.** 
 The project is primarily developed using **dlib, OpenCV, Numpy, and imutils** packages.
 
+---
+
 # Demo or Example Images/Videos
 
 result
 
-eyes and mouth
+<img width="510" alt="result" src="https://github.com/minjjjjjji/Termproject/assets/144930775/d2486fd0-42c3-4279-a2f1-735e3e12b205">
+
+
+mouth and eyes
+
+<img width="196" alt="mouth" src="https://github.com/minjjjjjji/Termproject/assets/144930775/57c0b447-e034-451c-82de-5802c353ee62">
+
+<img width="184" alt="eye1" src="https://github.com/minjjjjjji/Termproject/assets/144930775/e05c4009-cddb-47e1-897f-c051464a9acf">
+
+<img width="194" alt="eye2" src="https://github.com/minjjjjjji/Termproject/assets/144930775/d67530db-4e29-4ca8-b53e-af6f6416d6ea">
+
 
 face 
 
-### Used Packages and Versions
+<img width="252" alt="face" src="https://github.com/minjjjjjji/Termproject/assets/144930775/f9b5acb5-f25c-4c39-b5ad-faa15e907757">
+
+---
+
+# Used Packages and Versions
 
 1. dlib(19.24.2): **pip install dlib**
 
@@ -24,7 +40,6 @@ face
 3. Numpy(1.26.2): **pip install numpy**
 
 4. imutils(0.5.4): **pip install imutils**
-
 
 ---
 
@@ -37,10 +52,11 @@ pip install dlib opencv-python numpy imutils
 2. Download Project: Clone or download the project.
 
 3. Run the Code: Execute the following code to test the project:
+
 ---
 
 # Explain some codes about **python landmarks.py**
----
+
 #### Initalizing the face detector from dlib
 ```sh
 face_det = dlib.get_frontal_face_detector()
@@ -85,8 +101,8 @@ cv.destroyAllWindows()
 ```
 
 ---
+
 # Explain some codes about **python snowman.py**
----
 
 #### Loading and resizing the snowman image
 ```sh
