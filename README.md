@@ -1,21 +1,34 @@
-# <Project Overview>
+# Welcome to out OSS Termproject
+This repository is made for termproject "Open source SW".
+
+---
+
+# Project Overview
 This project provides a functionality to **detect eyes and mouth on a snowman's face template and seamlessly blend these facial features with another image.** 
 The project is primarily developed using **dlib, OpenCV, Numpy, and imutils** packages.
 
-# <Demo or Example Images/Videos>
-[Insert project demo images or videos here]
+# Demo or Example Images/Videos
 
-### <Used Packages and Versions>
+result
 
-***dlib, OpenCV, Numpy, imutils***
-### Before to begin you have to install these packages
-dlib: **pip install dlib**
-OpenCV: **pip install opencv-python**
-Numpy: **pip install numpy**
-imutils: **pip install imutils**
+eyes and mouth
+
+face 
+
+### Used Packages and Versions
+
+1. dlib(19.24.2): **pip install dlib**
+
+2. OpenCV(4.8.1.78): **pip install opencv-python**
+
+3. Numpy(1.26.2): **pip install numpy**
+
+4. imutils(0.5.4): **pip install imutils**
+
 
 ---
- # <Execution Instructions>
+
+# Execution Instructions
 
 1. Install Libraries: Install the required packages using the following commands:
 ```sh
@@ -108,9 +121,12 @@ for p in shape:
     cv2.circle(face_img, center=(p[0] - x1, p[1] - y1), radius=2, color=255, thickness=-1)
 ```
 ---
-# <References>
 
-(http://dlib.net/)
-(https://opencv.org/)
-(https://numpy.org/doc/)
-(https://bkshin.tistory.com/entry/OpenCV-9-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%B0%EC%82%B0)https://bkshin.tistory.com/entry/OpenCV-9-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%B0%EC%82%B0
+# References
+
+1. http://dlib.net/
+2. https://opencv.org/
+3. https://numpy.org/doc/
+4. https://bkshin.tistory.com/entry/OpenCV-9-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%B0%EC%82%B0)https://bkshin.tistory.com/entry/OpenCV-9-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%B0%EC%82%B0
+5. https://blog.naver.com/juachef/222982605787
+
