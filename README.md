@@ -1,4 +1,4 @@
-# Welcome to out OSS Termproject
+# Welcome to our OSS Termproject
 This repository is made for termproject "Open source SW".
 
 ---
@@ -124,9 +124,6 @@ for p in shape:
 
 # References
 
-1. http://dlib.net/
-2. https://opencv.org/
-3. https://numpy.org/doc/
-4. https://bkshin.tistory.com/entry/OpenCV-9-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%B0%EC%82%B0)https://bkshin.tistory.com/entry/OpenCV-9-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%B0%EC%82%B0
-5. https://blog.naver.com/juachef/222982605787
+1. https://blog.naver.com/juachef/222982605787
+2. https://bkshin.tistory.com/entry/OpenCV-9-이미지-연산
 
